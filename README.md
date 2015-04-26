@@ -8,15 +8,15 @@ This repository hosts the source code of FakkuEASE.
 ## Screenshots
 http://imgur.com/a/BMh2y
 
-## Quick Installation
+## Installation
 ### Requirements
 Google Chrome
 
-1. Download the Chrome Extension from my Dropbox https://www.dropbox.com/s/ah1v6tvd4sfdyw9/fakkuEASE%201.0.0.crx?dl=0
-2. Open chrome://extensions/ (copy and paste) in Chrome
-3. Drop the .crx file into Chrome to install
-
-Alternatively, you can compile the application yourself.
+1. Download the Chrome Extension from my Github repository here https://github.com/TrueYukiNagato/FakkuEASE (Click Download Zip)
+2. Extract _FakkuEASE-master.zip_
+3. Open Google Chrome and open the extensions page chrome://extensions/
+4. Enable _Developer mode_ by checking the check box located at the top
+5. Click _Load unpacked extension..._ and select the extracted _FakkuEASE-master_ folder 
 
 ## Bugs and Suggestions
 Please post all bugs or suggestions on the official thread. Of course, any other comments are welcome too (:
