@@ -1,0 +1,29 @@
+body: {
+	padding: 10px;
+}
+
+#saveButtonDiv {
+	text-align: right;
+}
+
+p.info {
+	border:1px solid #888888;
+	padding:2px;
+	font-size:8pt;
+	color:#888888;
+	border-radius: 5px
+}
+
+#tagsToggleArray {
+	width:100%;
+}
+
+#tagsToggleArray th {
+	width:25%;
+	text-align: right;
+}
+
+#tagsToggleArray td {
+	width:25%;
+}
+

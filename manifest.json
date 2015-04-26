@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+
+    "name": "fakkuEASE",
+    "description": "This extension allows for a easier and more pleasent browsing of Fakku.",
+    "author": "TrueYukiNagato",
+    "version": "1.0.0",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+
+    "options_ui": {
+        // Required.
+        "page": "options.html",
+        // Recommended.
+        "chrome_style": true
+    },
+
+    "permissions": ["storage"],
+
+    "content_scripts": [{
+        "matches": ["https://www.fakku.net/*/*"],
+        "exclude_globs": [
+           "*/forums*"
+        ],
+        "js": ["jquery-1.11.2.min.js", "jquery.timeago.js", "jquery.visible.js", "scroller.js"]
+    }]
+}
